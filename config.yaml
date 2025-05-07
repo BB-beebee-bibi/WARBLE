@@ -1,0 +1,14 @@
+bluetooth:
+  timeout: 5.0
+audio:
+  rate: 44100
+  chunk: 1024
+initial:
+  carrier: 440
+  split: 6
+optimizer:
+  fs: 256
+  window_size: 4
+  target_band:
+    - 8
+    - 12 
